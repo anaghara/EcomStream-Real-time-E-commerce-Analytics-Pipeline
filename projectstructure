@@ -1,0 +1,18 @@
+Realtime E-commerce_app/
+├── data_ingestion/
+│   ├── kafka_producer.py
+│   ├── kafka_consumer.py
+├── data_processing/
+│   ├── spark_streaming.py
+│   ├── hive_queries.hql
+├── data_storage/
+│   ├── hbase_setup.sh
+│   ├── cassandra_setup.cql
+├── data_analytics/
+│   ├── dashboard_setup.sql
+│   ├── reporting.ipynb
+├── monitoring/
+│   ├── prometheus_config.yml
+│   ├── grafana_dashboard.json
+└── orchestration/
+    ├── airflow_dag.py
